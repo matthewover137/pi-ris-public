@@ -1,0 +1,146 @@
+step 0: train loss 8.5081, val loss 8.2448
+0 | loss 8.4719 | lr 0.000000e+00 | 45120.50ms | mfu -100.00%
+10 | loss 6.1568 | lr 5.000000e-05 | 638.17ms | mfu 0.40%
+20 | loss 4.9400 | lr 1.000000e-04 | 628.79ms | mfu 0.40%
+30 | loss 4.3229 | lr 1.500000e-04 | 623.37ms | mfu 0.40%
+40 | loss 3.6784 | lr 2.000000e-04 | 622.79ms | mfu 0.40%
+50 | loss 3.4434 | lr 2.500000e-04 | 648.95ms | mfu 0.40%
+60 | loss 3.2046 | lr 3.000000e-04 | 658.23ms | mfu 0.40%
+70 | loss 3.1689 | lr 3.500000e-04 | 646.33ms | mfu 0.40%
+80 | loss 2.9282 | lr 4.000000e-04 | 613.04ms | mfu 0.40%
+90 | loss 2.7761 | lr 4.500000e-04 | 636.72ms | mfu 0.40%
+100 | loss 2.8181 | lr 5.000000e-04 | 638.39ms | mfu 0.40%
+110 | loss 2.7770 | lr 4.999949e-04 | 621.80ms | mfu 0.40%
+120 | loss 2.5076 | lr 4.999794e-04 | 666.35ms | mfu 0.40%
+130 | loss 2.6364 | lr 4.999538e-04 | 639.49ms | mfu 0.40%
+140 | loss 2.6167 | lr 4.999178e-04 | 647.81ms | mfu 0.40%
+150 | loss 2.3559 | lr 4.998716e-04 | 812.49ms | mfu 0.39%
+160 | loss 2.4938 | lr 4.998150e-04 | 967.71ms | mfu 0.38%
+170 | loss 2.5902 | lr 4.997483e-04 | 656.03ms | mfu 0.38%
+180 | loss 2.2726 | lr 4.996712e-04 | 643.97ms | mfu 0.38%
+190 | loss 2.2925 | lr 4.995839e-04 | 698.79ms | mfu 0.38%
+200 | loss 2.2221 | lr 4.994863e-04 | 645.57ms | mfu 0.38%
+210 | loss 2.3317 | lr 4.993785e-04 | 638.12ms | mfu 0.38%
+220 | loss 2.2832 | lr 4.992605e-04 | 702.44ms | mfu 0.38%
+230 | loss 2.1200 | lr 4.991321e-04 | 672.36ms | mfu 0.38%
+240 | loss 2.1870 | lr 4.989936e-04 | 651.38ms | mfu 0.38%
+250 | loss 2.2346 | lr 4.988448e-04 | 660.47ms | mfu 0.38%
+260 | loss 2.1914 | lr 4.986858e-04 | 641.05ms | mfu 0.38%
+270 | loss 2.1416 | lr 4.985165e-04 | 669.19ms | mfu 0.38%
+280 | loss 2.0639 | lr 4.983370e-04 | 644.60ms | mfu 0.38%
+290 | loss 2.1991 | lr 4.981474e-04 | 662.89ms | mfu 0.38%
+300 | loss 2.0125 | lr 4.979475e-04 | 673.63ms | mfu 0.38%
+310 | loss 2.0215 | lr 4.977374e-04 | 633.77ms | mfu 0.38%
+320 | loss 1.7821 | lr 4.975172e-04 | 640.67ms | mfu 0.38%
+330 | loss 1.9813 | lr 4.972868e-04 | 671.29ms | mfu 0.38%
+340 | loss 2.0587 | lr 4.970462e-04 | 656.43ms | mfu 0.38%
+350 | loss 1.9196 | lr 4.967954e-04 | 675.43ms | mfu 0.38%
+360 | loss 2.0278 | lr 4.965346e-04 | 663.35ms | mfu 0.38%
+370 | loss 1.7765 | lr 4.962635e-04 | 697.23ms | mfu 0.38%
+380 | loss 1.6774 | lr 4.959824e-04 | 658.03ms | mfu 0.38%
+390 | loss 2.0341 | lr 4.956911e-04 | 776.89ms | mfu 0.38%
+400 | loss 1.8339 | lr 4.953898e-04 | 636.49ms | mfu 0.38%
+410 | loss 1.8370 | lr 4.950783e-04 | 645.28ms | mfu 0.38%
+420 | loss 1.9396 | lr 4.947568e-04 | 677.17ms | mfu 0.38%
+430 | loss 1.6741 | lr 4.944253e-04 | 659.89ms | mfu 0.38%
+440 | loss 1.6691 | lr 4.940836e-04 | 656.48ms | mfu 0.38%
+450 | loss 1.6101 | lr 4.937320e-04 | 632.79ms | mfu 0.38%
+460 | loss 1.6890 | lr 4.933703e-04 | 643.50ms | mfu 0.38%
+470 | loss 1.6654 | lr 4.929986e-04 | 655.89ms | mfu 0.38%
+480 | loss 1.7086 | lr 4.926170e-04 | 648.41ms | mfu 0.38%
+490 | loss 1.5504 | lr 4.922253e-04 | 665.22ms | mfu 0.38%
+step 500: train loss 1.6006, val loss 3.6117
+saving checkpoint to finetunes
+wrote finetunes/model.bin
+500 | loss 1.5091 | lr 4.918237e-04 | 43537.02ms | mfu 0.35%
+510 | loss 1.5981 | lr 4.914122e-04 | 665.99ms | mfu 0.35%
+520 | loss 1.4999 | lr 4.909907e-04 | 686.36ms | mfu 0.35%
+530 | loss 1.5906 | lr 4.905593e-04 | 637.44ms | mfu 0.36%
+540 | loss 1.5631 | lr 4.901181e-04 | 664.74ms | mfu 0.36%
+550 | loss 1.4026 | lr 4.896670e-04 | 652.37ms | mfu 0.36%
+560 | loss 1.4021 | lr 4.892060e-04 | 666.30ms | mfu 0.36%
+570 | loss 1.4021 | lr 4.887352e-04 | 684.60ms | mfu 0.36%
+580 | loss 1.5032 | lr 4.882545e-04 | 648.38ms | mfu 0.37%
+590 | loss 1.2831 | lr 4.877641e-04 | 652.95ms | mfu 0.37%
+600 | loss 1.4130 | lr 4.872639e-04 | 661.76ms | mfu 0.37%
+610 | loss 1.3504 | lr 4.867540e-04 | 635.21ms | mfu 0.37%
+620 | loss 1.4109 | lr 4.862343e-04 | 989.00ms | mfu 0.36%
+630 | loss 1.4860 | lr 4.857049e-04 | 852.24ms | mfu 0.35%
+640 | loss 1.2355 | lr 4.851658e-04 | 662.80ms | mfu 0.36%
+650 | loss 1.3080 | lr 4.846171e-04 | 705.00ms | mfu 0.36%
+660 | loss 1.3085 | lr 4.840587e-04 | 651.44ms | mfu 0.36%
+670 | loss 1.3818 | lr 4.834907e-04 | 670.47ms | mfu 0.36%
+680 | loss 1.2317 | lr 4.829131e-04 | 705.47ms | mfu 0.36%
+690 | loss 1.1794 | lr 4.823259e-04 | 666.65ms | mfu 0.36%
+700 | loss 1.2088 | lr 4.817292e-04 | 792.33ms | mfu 0.36%
+710 | loss 1.2188 | lr 4.811229e-04 | 713.08ms | mfu 0.36%
+720 | loss 1.0441 | lr 4.805072e-04 | 668.60ms | mfu 0.36%
+730 | loss 1.2697 | lr 4.798819e-04 | 641.68ms | mfu 0.36%
+740 | loss 1.2935 | lr 4.792473e-04 | 713.32ms | mfu 0.36%
+750 | loss 1.2448 | lr 4.786032e-04 | 693.71ms | mfu 0.36%
+760 | loss 1.1296 | lr 4.779497e-04 | 796.78ms | mfu 0.36%
+770 | loss 1.3782 | lr 4.772868e-04 | 676.21ms | mfu 0.36%
+780 | loss 1.1323 | lr 4.766146e-04 | 655.78ms | mfu 0.36%
+790 | loss 1.0867 | lr 4.759330e-04 | 683.16ms | mfu 0.36%
+800 | loss 1.0611 | lr 4.752422e-04 | 643.26ms | mfu 0.37%
+810 | loss 1.0668 | lr 4.745421e-04 | 828.02ms | mfu 0.36%
+820 | loss 1.0322 | lr 4.738328e-04 | 628.70ms | mfu 0.37%
+830 | loss 0.9130 | lr 4.731143e-04 | 627.32ms | mfu 0.37%
+840 | loss 0.9467 | lr 4.723866e-04 | 618.18ms | mfu 0.37%
+850 | loss 1.0629 | lr 4.716498e-04 | 654.53ms | mfu 0.37%
+860 | loss 0.9691 | lr 4.709039e-04 | 654.16ms | mfu 0.38%
+870 | loss 0.8408 | lr 4.701489e-04 | 639.36ms | mfu 0.38%
+880 | loss 1.0675 | lr 4.693848e-04 | 649.08ms | mfu 0.38%
+890 | loss 0.9258 | lr 4.686117e-04 | 854.43ms | mfu 0.37%
+900 | loss 0.9436 | lr 4.678297e-04 | 750.51ms | mfu 0.37%
+910 | loss 1.0521 | lr 4.670387e-04 | 985.60ms | mfu 0.36%
+920 | loss 0.8814 | lr 4.662387e-04 | 1050.23ms | mfu 0.34%
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/exit_hooks.py"[0m, line [35m54[0m, in [35mexc_handler[0m
+    [31mtraceback.print_exception[0m[1;31m(exc_type, exc, tb)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py"[0m, line [35m129[0m, in [35mprint_exception[0m
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py"[0m, line [35m1046[0m, in [35m__init__[0m
+    _seen = set()
+[1;35mKeyboardInterrupt[0m
+
+Original exception was:
+Traceback (most recent call last):
+  File [35m"/Users/matthewli/Documents/iris/pi-ris/llama2.c/finetune_msg.py"[0m, line [35m283[0m, in [35m<module>[0m
+    [31mscaler.step[0m[1;31m(optimizer)[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/amp/grad_scaler.py"[0m, line [35m384[0m, in [35mstep[0m
+    return [31moptimizer.step[0m[1;31m(*args, **kwargs)[0m
+           [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/optim/optimizer.py"[0m, line [35m485[0m, in [35mwrapper[0m
+    out = func(*args, **kwargs)
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/optim/optimizer.py"[0m, line [35m79[0m, in [35m_use_grad[0m
+    ret = func(self, *args, **kwargs)
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/optim/adam.py"[0m, line [35m246[0m, in [35mstep[0m
+    [31madam[0m[1;31m([0m
+    [31m~~~~[0m[1;31m^[0m
+        [1;31mparams_with_grad,[0m
+        [1;31m^^^^^^^^^^^^^^^^^[0m
+    ...<19 lines>...
+        [1;31mdecoupled_weight_decay=group["decoupled_weight_decay"],[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/optim/optimizer.py"[0m, line [35m147[0m, in [35mmaybe_fallback[0m
+    return func(*args, **kwargs)
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/optim/adam.py"[0m, line [35m933[0m, in [35madam[0m
+    [31mfunc[0m[1;31m([0m
+    [31m~~~~[0m[1;31m^[0m
+        [1;31mparams,[0m
+        [1;31m^^^^^^^[0m
+    ...<17 lines>...
+        [1;31mdecoupled_weight_decay=decoupled_weight_decay,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/optim/adam.py"[0m, line [35m456[0m, in [35m_single_tensor_adam[0m
+    [31mexp_avg_sq.mul_[0m[1;31m(beta2)[0m.addcmul_(grad, grad, value=1 - beta2)
+    [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^[0m
+[1;35mKeyboardInterrupt[0m

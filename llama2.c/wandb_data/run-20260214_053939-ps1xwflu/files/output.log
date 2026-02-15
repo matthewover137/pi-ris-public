@@ -1,0 +1,58 @@
+step 0: train loss 8.5081, val loss 8.2448
+0 | loss 8.4719 | lr 0.000000e+00 | 46252.41ms | mfu -100.00%
+10 | loss 6.1568 | lr 5.000000e-05 | 674.17ms | mfu 0.38%
+20 | loss 4.9400 | lr 1.000000e-04 | 673.00ms | mfu 0.38%
+30 | loss 4.3228 | lr 1.500000e-04 | 651.73ms | mfu 0.38%
+40 | loss 3.6800 | lr 2.000000e-04 | 693.52ms | mfu 0.38%
+50 | loss 3.4442 | lr 2.500000e-04 | 688.24ms | mfu 0.38%
+60 | loss 3.2021 | lr 3.000000e-04 | 661.32ms | mfu 0.38%
+70 | loss 3.1814 | lr 3.500000e-04 | 665.69ms | mfu 0.38%
+80 | loss 2.9564 | lr 4.000000e-04 | 663.13ms | mfu 0.38%
+90 | loss 2.7875 | lr 4.500000e-04 | 668.29ms | mfu 0.38%
+100 | loss 2.8845 | lr 5.000000e-04 | 650.87ms | mfu 0.38%
+110 | loss 2.7844 | lr 4.999949e-04 | 726.21ms | mfu 0.38%
+120 | loss 2.5133 | lr 4.999794e-04 | 964.20ms | mfu 0.36%
+130 | loss 2.6314 | lr 4.999538e-04 | 962.30ms | mfu 0.35%
+140 | loss 2.6270 | lr 4.999178e-04 | 725.31ms | mfu 0.35%
+150 | loss 2.3678 | lr 4.998716e-04 | 641.50ms | mfu 0.36%
+160 | loss 2.4780 | lr 4.998150e-04 | 703.48ms | mfu 0.36%
+170 | loss 2.5833 | lr 4.997483e-04 | 845.35ms | mfu 0.35%
+180 | loss 2.2694 | lr 4.996712e-04 | 821.73ms | mfu 0.35%
+190 | loss 2.3275 | lr 4.995839e-04 | 682.19ms | mfu 0.35%
+200 | loss 2.2327 | lr 4.994863e-04 | 650.15ms | mfu 0.35%
+210 | loss 2.3244 | lr 4.993785e-04 | 676.18ms | mfu 0.36%
+220 | loss 2.2809 | lr 4.992605e-04 | 638.16ms | mfu 0.36%
+230 | loss 2.1210 | lr 4.991321e-04 | 647.51ms | mfu 0.36%
+240 | loss 2.1948 | lr 4.989936e-04 | 654.19ms | mfu 0.37%
+250 | loss 2.2523 | lr 4.988448e-04 | 643.78ms | mfu 0.37%
+260 | loss 2.1754 | lr 4.986858e-04 | 632.91ms | mfu 0.37%
+270 | loss 2.1502 | lr 4.985165e-04 | 625.84ms | mfu 0.37%
+280 | loss 2.0676 | lr 4.983370e-04 | 952.61ms | mfu 0.36%
+290 | loss 2.2191 | lr 4.981474e-04 | 690.35ms | mfu 0.36%
+300 | loss 2.0069 | lr 4.979475e-04 | 850.08ms | mfu 0.36%
+310 | loss 2.0218 | lr 4.977374e-04 | 676.44ms | mfu 0.36%
+320 | loss 1.8039 | lr 4.975172e-04 | 654.10ms | mfu 0.36%
+330 | loss 1.9716 | lr 4.972868e-04 | 632.17ms | mfu 0.37%
+340 | loss 2.0672 | lr 4.970462e-04 | 625.42ms | mfu 0.37%
+350 | loss 1.9323 | lr 4.967954e-04 | 628.50ms | mfu 0.37%
+360 | loss 2.0363 | lr 4.965346e-04 | 803.86ms | mfu 0.37%
+370 | loss 1.7955 | lr 4.962635e-04 | 629.15ms | mfu 0.37%
+380 | loss 1.6687 | lr 4.959824e-04 | 631.09ms | mfu 0.37%
+390 | loss 2.0142 | lr 4.956911e-04 | 702.84ms | mfu 0.37%
+400 | loss 1.8263 | lr 4.953898e-04 | 652.89ms | mfu 0.37%
+410 | loss 1.8116 | lr 4.950783e-04 | 685.12ms | mfu 0.37%
+420 | loss 1.9340 | lr 4.947568e-04 | 705.31ms | mfu 0.37%
+430 | loss 1.6608 | lr 4.944253e-04 | 669.83ms | mfu 0.37%
+440 | loss 1.6518 | lr 4.940836e-04 | 671.03ms | mfu 0.37%
+450 | loss 1.6129 | lr 4.937320e-04 | 748.61ms | mfu 0.37%
+460 | loss 1.6828 | lr 4.933703e-04 | 704.86ms | mfu 0.37%
+470 | loss 1.6606 | lr 4.929986e-04 | 650.34ms | mfu 0.37%
+480 | loss 1.7040 | lr 4.926170e-04 | 665.81ms | mfu 0.37%
+490 | loss 1.5211 | lr 4.922253e-04 | 660.80ms | mfu 0.37%
+step 500: train loss 1.6048, val loss 3.6225
+saving checkpoint to finetunes
+Traceback (most recent call last):
+  File "/Users/matthewli/Documents/iris/pi-ris/llama2.c/finetune_msg.py", line 263, in <module>
+    model_export(raw_model, os.path.join(out_dir, "model.bin"), version=0)
+    ^^^^^^^^^^^^
+NameError: name 'model_export' is not defined

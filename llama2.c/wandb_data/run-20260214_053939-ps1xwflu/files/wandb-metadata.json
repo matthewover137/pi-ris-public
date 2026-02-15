@@ -1,0 +1,45 @@
+{
+  "os": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.7",
+  "startedAt": "2026-02-14T13:39:39.402994Z",
+  "args": [
+    "--device=mps",
+    "--compile=False",
+    "--batch_size=32",
+    "--wandb_log=True",
+    "--wandb_project=pi-ris",
+    "--wandb_run_name=run_01"
+  ],
+  "program": "/Users/matthewli/Documents/iris/pi-ris/llama2.c/finetune_msg.py",
+  "codePath": "finetune_msg.py",
+  "codePathLocal": "finetune_msg.py",
+  "git": {
+    "remote": "https://github.com/karpathy/llama2.c.git",
+    "commit": "350e04fe35433e6d2941dce5a1f53308f87058eb"
+  },
+  "email": "matthewover137@gmail.com",
+  "root": "/Users/matthewli/Documents/iris/pi-ris/llama2.c",
+  "host": "Matthews-MacBook-Pro-3.local",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "368607272960"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M4",
+    "ecpuCores": 6,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 16,
+    "swapTotalBytes": "23622320128",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "bkpgbp4apw5vmldpq1jygnx76rg7fq82"
+}

@@ -1,0 +1,126 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            lle0hwb63sly88ihpj88hame72bjd4fk:
+                args:
+                    - --ckpt_path=stories42M.pt
+                    - --device=cuda
+                    - --compile=True
+                    - --batch_size=64
+                    - --warmup_iters=200
+                    - --learning_rate=1e-5
+                    - --wandb_log=True
+                    - --wandb_project=pi-ris
+                    - --wandb_run_name=42M_less_iters
+                    - --max_iters=2000
+                codePath: llama2.c/finetune_msg.py
+                codePathLocal: finetune_msg.py
+                cpu_count: 30
+                cpu_count_logical: 30
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "531415142400"
+                        used: "26441883648"
+                email: matthewover137@gmail.com
+                executable: /usr/bin/python
+                git:
+                    commit: 71c2ac91a1cc294a9aae54f20c90eaebfaf9d976
+                    remote: git@github.com:matthewover137/pi-ris-private.git
+                gpu: NVIDIA A100-SXM4-40GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-SXM4-40GB
+                      uuid: GPU-3b71c390-40f9-011c-c0a5-2b647f7e1db1
+                host: 129-146-23-162
+                memory:
+                    total: "232205053952"
+                os: Linux-6.11.0-1016-nvidia-x86_64-with-glibc2.39
+                program: /home/ubuntu/pi-ris-private/llama2.c/finetune_msg.py
+                python: CPython 3.12.3
+                root: /home/ubuntu/pi-ris-private/llama2.c
+                startedAt: "2026-02-14T16:22:15.793180Z"
+                writerId: lle0hwb63sly88ihpj88hame72bjd4fk
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.12.3
+            "5": 0.25.0
+            "12": 0.25.0
+            "13": linux-x86_64
+always_save_checkpoint:
+    value: false
+batch_size:
+    value: 64
+beta1:
+    value: 0.9
+beta2:
+    value: 0.95
+ckpt_path:
+    value: stories42M.pt
+compile:
+    value: true
+decay_lr:
+    value: true
+device:
+    value: cuda
+dim:
+    value: 288
+dropout:
+    value: 0
+dtype:
+    value: bfloat16
+eval_interval:
+    value: 500
+eval_iters:
+    value: 100
+eval_only:
+    value: false
+grad_clip:
+    value: 1
+gradient_accumulation_steps:
+    value: 1
+init_from:
+    value: resume
+learning_rate:
+    value: 1e-05
+log_interval:
+    value: 10
+max_iters:
+    value: 2000
+max_seq_len:
+    value: 256
+multiple_of:
+    value: 32
+n_heads:
+    value: 6
+n_kv_heads:
+    value: 6
+n_layers:
+    value: 6
+out_dir:
+    value: finetunes
+vocab_size:
+    value: 32000
+wandb_log:
+    value: true
+wandb_project:
+    value: pi-ris
+wandb_run_name:
+    value: 42M_less_iters
+warmup_iters:
+    value: 200
+weight_decay:
+    value: 0.1

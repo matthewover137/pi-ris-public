@@ -1,0 +1,52 @@
+{
+  "os":  "Linux-6.11.0-1016-nvidia-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2026-02-14T16:10:02.582393Z",
+  "args":  [
+    "--ckpt_path=stories42M.pt",
+    "--device=cuda",
+    "--compile=True",
+    "--batch_size=64",
+    "--warmup_iters=500",
+    "--learning_rate=1e-5",
+    "--dropout=0.1",
+    "--wandb_log=True",
+    "--wandb_project=pi-ris",
+    "--wandb_run_name=42M"
+  ],
+  "program":  "/home/ubuntu/pi-ris-private/llama2.c/finetune_msg.py",
+  "codePath":  "llama2.c/finetune_msg.py",
+  "codePathLocal":  "finetune_msg.py",
+  "git":  {
+    "remote":  "git@github.com:matthewover137/pi-ris-private.git",
+    "commit":  "71c2ac91a1cc294a9aae54f20c90eaebfaf9d976"
+  },
+  "email":  "matthewover137@gmail.com",
+  "root":  "/home/ubuntu/pi-ris-private/llama2.c",
+  "host":  "129-146-23-162",
+  "executable":  "/usr/bin/python",
+  "cpu_count":  30,
+  "cpu_count_logical":  30,
+  "gpu":  "NVIDIA A100-SXM4-40GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "531415142400",
+      "used":  "25502208000"
+    }
+  },
+  "memory":  {
+    "total":  "232205053952"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100-SXM4-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-3b71c390-40f9-011c-c0a5-2b647f7e1db1"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "qbs5lqlc51picaob1d34vpg3hqd8hlor"
+}

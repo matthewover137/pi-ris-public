@@ -1,0 +1,122 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            s43ec29m33obrfvkcty5isvwojtgrlta:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "24696061952"
+                args:
+                    - --device=mps
+                    - --compile=False
+                    - --batch_size=32
+                    - --wandb_log=True
+                    - --wandb_project=pi-ris
+                    - --wandb_run_name=run_01
+                codePath: llama2.c/finetune_msg.py
+                codePathLocal: finetune_msg.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "372518293504"
+                email: matthewover137@gmail.com
+                executable: /Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+                git:
+                    commit: 410d0dadb8e30f8a1f9fcdb96818ab1980c5bab9
+                host: Matthews-MacBook-Pro-3.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.1-arm64-arm-64bit-Mach-O
+                program: /Users/matthewli/Documents/iris/pi-ris/llama2.c/finetune_msg.py
+                python: CPython 3.13.7
+                root: /Users/matthewli/Documents/iris/pi-ris/llama2.c
+                startedAt: "2026-02-14T13:59:07.713113Z"
+                writerId: s43ec29m33obrfvkcty5isvwojtgrlta
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 1
+                - 15
+            "2":
+                - 1
+                - 15
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.13.7
+            "5": 0.25.0
+            "12": 0.25.0
+            "13": darwin-arm64
+always_save_checkpoint:
+    value: false
+batch_size:
+    value: 32
+beta1:
+    value: 0.9
+beta2:
+    value: 0.95
+ckpt_path:
+    value: stories15M.pt
+compile:
+    value: false
+decay_lr:
+    value: true
+device:
+    value: mps
+dim:
+    value: 288
+dropout:
+    value: 0
+dtype:
+    value: bfloat16
+eval_interval:
+    value: 500
+eval_iters:
+    value: 100
+eval_only:
+    value: false
+grad_clip:
+    value: 1
+gradient_accumulation_steps:
+    value: 1
+init_from:
+    value: resume
+learning_rate:
+    value: 0.0005
+log_interval:
+    value: 10
+max_iters:
+    value: 5000
+max_seq_len:
+    value: 256
+multiple_of:
+    value: 32
+n_heads:
+    value: 6
+n_kv_heads:
+    value: 6
+n_layers:
+    value: 6
+out_dir:
+    value: finetunes
+vocab_size:
+    value: 32000
+wandb_log:
+    value: true
+wandb_project:
+    value: pi-ris
+wandb_run_name:
+    value: run_01
+warmup_iters:
+    value: 100
+weight_decay:
+    value: 0.1

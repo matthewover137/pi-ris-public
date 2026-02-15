@@ -1,0 +1,16 @@
+#ifndef __BOOT_DEFS_DANIEL__
+#define __BOOT_DEFS_DANIEL__
+
+//opcodes
+enum {
+    ARMBASE = 0x8000,
+    GET_PROG_INFO = 0b11110000,
+    PUT_PROG_INFO = 0b00001111,
+    PUT_CODE = 0b10101010,
+    GET_CODE = 0b01010101,
+    BOOT_ERROR = 0b11001100,
+    BOOT_SUCCESS = 0b00110011,
+    PRINT_STRING = 0b11101110
+};
+
+#endif
