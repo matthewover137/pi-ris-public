@@ -1,5 +1,4 @@
-# I love iris!
-
+# This is the public version of this, without my messages. If you wanna ask about my commit history or see my whole codebase come ask me please thanks!
 steps:
 0. wget https://huggingface.co/karpathy/tinyllamas/resolve/main/stories15M.pt (base model)
 1. run the data cleaner notebook in private
